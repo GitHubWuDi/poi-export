@@ -20,6 +20,7 @@ public class NetSiteTest {
 
 	private NetSiteVO netSiteVO;
 	
+	
 	//BufferedImage bufferImage;
 	
 	@Before
@@ -55,6 +56,8 @@ public class NetSiteTest {
 		template.close();
 		
 	}
+	
+	
 	
 	
 }

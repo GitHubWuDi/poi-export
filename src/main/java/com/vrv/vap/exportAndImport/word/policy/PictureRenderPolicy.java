@@ -7,11 +7,11 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.vrv.vap.exportAndImport.util.BytePictureUtils;
 import com.vrv.vap.exportAndImport.word.XWPFTemplate;
 import com.vrv.vap.exportAndImport.word.data.PictureRenderData;
 import com.vrv.vap.exportAndImport.word.template.ElementTemplate;
 import com.vrv.vap.exportAndImport.word.template.RunTemplate;
-import com.vrv.vap.exportAndImport.word.util.BytePictureUtils;
 
 /** * 
 * @author wudi 

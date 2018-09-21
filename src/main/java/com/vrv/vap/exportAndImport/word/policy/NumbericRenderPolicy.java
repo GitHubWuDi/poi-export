@@ -19,6 +19,7 @@ import org.openxmlformats.schemas.wordprocessingml.x2006.main.STJc;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.STNumberFormat;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.STNumberFormat.Enum;
 
+import com.vrv.vap.exportAndImport.util.StyleUtils;
 import com.vrv.vap.exportAndImport.word.NiceXWPFDocument;
 import com.vrv.vap.exportAndImport.word.XWPFTemplate;
 import com.vrv.vap.exportAndImport.word.data.NumbericRenderData;
@@ -26,7 +27,6 @@ import com.vrv.vap.exportAndImport.word.data.TextRenderData;
 import com.vrv.vap.exportAndImport.word.data.style.Style;
 import com.vrv.vap.exportAndImport.word.template.ElementTemplate;
 import com.vrv.vap.exportAndImport.word.template.RunTemplate;
-import com.vrv.vap.exportAndImport.word.util.StyleUtils;
 
 /** * 
 * @author wudi 

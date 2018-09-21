@@ -1,6 +1,6 @@
 package com.vrv.vap.exportAndImport.word.data;
 
-import com.vrv.vap.exportAndImport.word.util.BytePictureUtils;
+import com.vrv.vap.exportAndImport.util.BytePictureUtils;
 
 import lombok.Data;
 

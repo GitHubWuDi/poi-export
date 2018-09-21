@@ -2,11 +2,11 @@ package com.vrv.vap.exportAndImport.word.policy;
 
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
+import com.vrv.vap.exportAndImport.util.StyleUtils;
 import com.vrv.vap.exportAndImport.word.XWPFTemplate;
 import com.vrv.vap.exportAndImport.word.data.TextRenderData;
 import com.vrv.vap.exportAndImport.word.template.ElementTemplate;
 import com.vrv.vap.exportAndImport.word.template.RunTemplate;
-import com.vrv.vap.exportAndImport.word.util.StyleUtils;
 
 /** * 
 * @author wudi 

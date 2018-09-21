@@ -9,6 +9,7 @@ import org.apache.poi.xwpf.usermodel.XWPFTableCell;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTP;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTc;
 
+import com.vrv.vap.exportAndImport.util.StyleUtils;
 import com.vrv.vap.exportAndImport.word.NiceXWPFDocument;
 import com.vrv.vap.exportAndImport.word.XWPFTemplate;
 import com.vrv.vap.exportAndImport.word.data.MiniTableRenderData;
@@ -17,7 +18,6 @@ import com.vrv.vap.exportAndImport.word.data.TextRenderData;
 import com.vrv.vap.exportAndImport.word.data.style.TableStyle;
 import com.vrv.vap.exportAndImport.word.template.ElementTemplate;
 import com.vrv.vap.exportAndImport.word.template.RunTemplate;
-import com.vrv.vap.exportAndImport.word.util.StyleUtils;
 
 /** * 
 * @author wudi 

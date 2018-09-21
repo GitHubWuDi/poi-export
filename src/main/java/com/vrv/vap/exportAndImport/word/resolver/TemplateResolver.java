@@ -34,12 +34,12 @@ import org.apache.poi.xwpf.usermodel.XWPFTableRow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.vrv.vap.exportAndImport.util.RegexUtils;
+import com.vrv.vap.exportAndImport.util.StyleUtils;
 import com.vrv.vap.exportAndImport.word.NiceXWPFDocument;
 import com.vrv.vap.exportAndImport.word.config.Configure;
 import com.vrv.vap.exportAndImport.word.template.ElementTemplate;
 import com.vrv.vap.exportAndImport.word.template.RunTemplate;
-import com.vrv.vap.exportAndImport.word.util.RegexUtils;
-import com.vrv.vap.exportAndImport.word.util.StyleUtils;
 
 /**
  * @author Sayi
