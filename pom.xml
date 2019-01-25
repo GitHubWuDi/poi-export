@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -11,13 +12,6 @@
 	<name>vap-export</name>
 	<description>spring export for Spring Boot</description>
 
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.16.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -25,33 +19,24 @@
 		<poi.version>3.17</poi.version>
 		<lombok.version>1.18.0</lombok.version>
 		<commons-lang3.version>3.3.2</commons-lang3.version>
-        <itextpdf.version>5.5.13</itextpdf.version>
+		<itextpdf.version>5.5.13</itextpdf.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-        <dependency>  
-		    <groupId>org.apache.poi</groupId>  
-		    <artifactId>poi</artifactId>  
-		    <version>${poi.version}</version>
-		</dependency>  
-		<dependency>  
-		    <groupId>org.apache.poi</groupId>  
-		    <artifactId>poi-ooxml-schemas</artifactId>  
-		    <version>${poi.version}</version>  
-		</dependency>  
-		<dependency>  
-		    <groupId>org.apache.poi</groupId>  
-		    <artifactId>poi-ooxml</artifactId>  
-		    <version>${poi.version}</version>  
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -65,23 +50,36 @@
 			<version>${commons-lang3.version}</version>
 		</dependency>
 		<dependency>
-           <groupId>com.itextpdf</groupId>
-           <artifactId>itextpdf</artifactId>
-           <version>${itextpdf.version}</version>
-        </dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>${itextpdf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.21</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.21</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				 <configuration>  
-                   <skip>true</skip>  
-                 </configuration> 
-			</plugin>
-		</plugins>
-	</build>
+	<!-- <build> <plugins> <plugin> <groupId>org.springframework.boot</groupId> 
+		<artifactId>spring-boot-maven-plugin</artifactId> <configuration> <skip>true</skip> 
+		</configuration> </plugin> </plugins> </build> -->
 
 
 </project>
